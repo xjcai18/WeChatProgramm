@@ -1,0 +1,19 @@
+<!--pages/video/video.wxml-->
+<!-- 第一个区域类配置video的标签 -->
+<video id='myVideo' controls src='{{src}}' enable-danmu="{{true}}" danmu-btn="{{true}}" />
+<!-- 第二个区域 -->
+<view class='talkArea'>
+    <input type='text' placeholder="请发送弹幕" bindinput='getDanmu'  />
+   <button bindtap='sendDanmu' >发送</button>
+</view>
+
+<!-- 视屏列表 -->
+
+<view class='viewList'>
+    <view class="videoBar" wx:for="{{list}}" wx:for-item="item"  wx:key="video{{index}}" data-url='{{item.videoUrl}}' bindtap='playVideo'>
+        <image src="../../images/video.jpg"></image>
+        <text>{{item.title}}</text>
+    </view>
+</view>
+
+

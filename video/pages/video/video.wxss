@@ -1,0 +1,53 @@
+/* pages/video/video.wxss */
+video{
+    width: 100%;
+}
+
+input{
+    border:1rpx solid #987928;
+    height: 100rpx;
+    flex-grow: 1;
+    /* 扩张多余的空间 */
+}
+button{
+    color: white;
+    background-color: #987928;
+    height: 100rpx;
+    width: 250rpx;
+}
+
+.talkArea{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.videoList{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400rpx;
+}
+
+.videoBar{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1rpx solid #987928;
+    margin:10rpx;
+
+}
+
+image{
+    width: 70rpx;
+    height:70rpx;
+    margin:20rpx;
+}
+
+text{
+    font-size: 45rpx;
+    text-align: center;
+    margin: 20rpx;
+    color: #987928;
+    flex-grow: 1;
+}

@@ -1,0 +1,22 @@
+<!--pages/first/first.wxml-->
+<!-- 轮播图的配置 -->
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="5000" duration="500">
+
+    <view wx:for="{{swiperImg}}" wx:key="{{index}}" wx:for-item="item">
+        <swiper-item >
+            <image src="{{item.src}}" />
+        </swiper-item>
+    </view>
+
+</swiper>
+
+<!-- 新闻列表的编写 -->
+<view class="news-list">
+    <view class='news-item' wx:for="{{newsList}}" wx:for-item="item" wx:key="{{item.id}}">
+        <image src='{{item.poster}}' />
+        <text  bindtap='goToDetail' data-id="{{item.id}}">{{item.title}}---{{item.add_date}}</text>
+    
+    </view>
+    <button plain="{{true}}">加载更多</button>
+
+</view>

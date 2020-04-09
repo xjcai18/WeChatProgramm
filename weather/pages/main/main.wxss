@@ -1,0 +1,44 @@
+/* pages/main/main.wxss */
+.container{
+    /* 采用flex布局格式 */
+    display: flex;
+    /* 竖直排列 */
+    flex-direction: column;
+    /* 设置视口为真个屏幕 */
+    height: 100vh;
+    /* 行居中排列 */
+    align-items: center;
+    align-content:flex-start;
+    justify-content: space-around;
+}
+
+.detail{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    /* 设置外边距，每个项目之间的编剧是多少 */
+    margin:20px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin-left: 20px;
+    align-items: center;
+   
+}
+
+image{
+    background-color: white;
+    width:220rpx;
+}
+
+text{
+    font-size: 80rpx;
+    color: #3C5F81;
+}

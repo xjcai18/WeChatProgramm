@@ -1,0 +1,22 @@
+/* pages/main/main.wxss */
+
+.myLogin{
+    height: 400rpx;
+    background-color: #328EEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.myLogin image{
+    width: 220rpx;
+    height:220rpx;
+    border-radius: 50%;
+}
+
+.myLogin text{
+    color:white;
+}
+
+
+

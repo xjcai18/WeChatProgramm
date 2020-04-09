@@ -1,0 +1,17 @@
+/* pages/first/first.wxss */
+/* 轮播图的样式 */
+swiper{
+    height: 420rpx;
+    width: 100%;
+}
+/* 轮播图下面的图片的样式 */
+swiper image {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* button的样式 */
+button{
+    width:750rpx;
+}

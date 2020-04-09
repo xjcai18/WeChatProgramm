@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/video/video",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#987928",
+    "navigationBarTitleText": "校史",
+    "navigationBarTextStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

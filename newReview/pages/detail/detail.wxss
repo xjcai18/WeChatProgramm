@@ -1,0 +1,32 @@
+/* pages/detail/detail.wxss */
+.container{
+    padding:15rpx;
+    text-align: center;
+}
+.title{
+    font-size:35rpx;
+    line-height: 35rpx;
+    text-align: center;
+}
+
+/* 图片的样式 */
+.poster image{
+    width:100%;
+
+}
+
+/* 新闻主题内容的样式 */
+.content text{
+    text-align: left;
+    font-size: 30rpx;
+    line-height: 35rpx;
+
+}
+
+.add_date{
+    font-size: 30rpx;
+    text-align: right;
+    line-height: 30rpx;
+    margin-right:25rpx;
+    margin-top:20rpx;
+}

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/detail/detail",
+    "pages/first/first",
+    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#328EEB",
+    "navigationBarTitleText": "小菜新闻网",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#328EEB",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "我的",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png"
+      }
+    ]
+  },
+  
+
+  "sitemapLocation": "sitemap.json"
+}
